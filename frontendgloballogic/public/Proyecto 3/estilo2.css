@@ -1,0 +1,69 @@
+.fila
+{
+	width: 100%;
+	height: 100px;
+	background-image: url('img/Fondo.jpg');
+	opacity:0.7;
+}
+
+a
+{
+	font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+	display: inline-block;
+	text-decoration-style: none;
+	color: white;
+	float: right;
+	padding: 10px;
+	text-decoration: none;
+	margin-top: 15px;
+}
+
+.opciones
+{
+	width:70%;
+	height: 50%;
+	display: inline-block;
+	opacity: 1;
+}
+
+.logo img
+{	
+	width: 200px;
+	height: 40%;
+	float:left;
+	display: inline-block;
+	margin:10px;
+	border: none;
+}
+
+a:hover
+{
+	color: orange;
+}
+
+.logo a
+{
+	display: inline-block;
+	float: left;
+}
+@media (max-width: 425px)
+{
+	body
+	{
+		background-color: green;
+	}
+}
+@media (min-width:426px) and (max-width: 768px)
+{
+	body
+	{
+		background-color: red;
+	}
+}
+@media (min-width:769px) and (max-width: 1024px)
+{
+	body
+	{
+		background-color: blue;
+	}
+}

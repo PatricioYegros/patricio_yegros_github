@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>Ejercicio 11 con Json</title>
+</head>
+<body>
+	<p id="ejercicio11">
+<script>
+
+	var jsonCV = {
+		'Nombre': 'Patricio Yegros',
+		'Experiencia' :[
+		{'lugar':'Lugar: GlobalLogic','puesto':'Puesto: Trainee Program Front end','descripción': 'Descripción: Ingresé en el 2016 luego de un programa llamado escuelita '},
+		{'lugar':'Lugar: X' , 'puesto' : 'Puesto: Y', 'descripción': 'Descripción: Z' }
+		],
+		'Conocimientos' : [
+		{'conocimiento1' : 'Conocimiento 1: Conocimiento 1'},
+		{'conocimiento2' : 'Conocimiento 2: Conocimiento 2'},
+		{'conocimiento3' : 'Conocimiento 3: Conocimiento 3'},
+		{'conocimiento4' : 'Conocimiento 4: Conocimiento 4'},
+		{'conocimiento5' : 'Conocimiento 5: Conocimiento 5'},
+		{'conocimiento6' : 'Conocimiento 6: Conocimiento 6'},
+		{'conocimiento7' : 'Conocimiento 7: Conocimiento 7'},
+		{'conocimiento8' : 'Conocimiento 8: Conocimiento 8'},
+		{'conocimiento9' : 'Conocimiento 9: Conocimiento 9'},
+		{'conocimiento10' : 'Conocimiento 10: Conocimiento 10'},
+		{'conocimiento11' : 'Conocimiento 11: Conocimiento 11'},
+		{'conocimiento12' : 'Conocimiento 12: Conocimiento 12'},
+		{'conocimiento13' : 'Conocimiento 13: Conocimiento 13'},
+		{'conocimiento14' : 'Conocimiento 14: Conocimiento 14'},
+		{'conocimiento15' : 'Conocimiento 15: Conocimiento 15'},
+		],
+
+	};
+
+	document.getElementById("ejercicio11").innerHTML =
+	jsonCV.Nombre + "<br>" +
+	"<br>" +
+	jsonCV.Experiencia[0].lugar + "<br>" +
+	jsonCV.Experiencia[0].puesto + "<br>" +
+	jsonCV.Experiencia[0].descripción + "<br>" +
+	"<br>" +
+	jsonCV.Experiencia[1].lugar + "<br>" +
+	jsonCV.Experiencia[1].puesto + "<br>" +
+	jsonCV.Experiencia[1].descripción + "<br>" +
+	"<br>" +
+	jsonCV.Conocimientos[0].conocimiento1 + "<br>" +
+	jsonCV.Conocimientos[1].conocimiento2 + "<br>" +
+	jsonCV.Conocimientos[2].conocimiento3 + "<br>" +
+	jsonCV.Conocimientos[3].conocimiento4 + "<br>" +
+	jsonCV.Conocimientos[4].conocimiento5 + "<br>" +
+	jsonCV.Conocimientos[5].conocimiento6 + "<br>" +
+	jsonCV.Conocimientos[6].conocimiento7 + "<br>" +
+	jsonCV.Conocimientos[7].conocimiento8 + "<br>" +
+	jsonCV.Conocimientos[8].conocimiento9 + "<br>" +
+	jsonCV.Conocimientos[9].conocimiento10 + "<br>" +
+	jsonCV.Conocimientos[10].conocimiento11 + "<br>" +
+	jsonCV.Conocimientos[11].conocimiento12 + "<br>" +
+	jsonCV.Conocimientos[12].conocimiento13 + "<br>" +
+	jsonCV.Conocimientos[13].conocimiento14 + "<br>" +
+	jsonCV.Conocimientos[14].conocimiento15
+	;
+
+</script>
+
+</body>
+</html>

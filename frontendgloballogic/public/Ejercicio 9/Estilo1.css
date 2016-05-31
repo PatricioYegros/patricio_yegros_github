@@ -1,0 +1,27 @@
+.form-group
+{
+	width: 100%;
+	display: inline-block;
+	margin-left:1%;
+	margin-top:1%;
+}
+
+.columna-1
+{
+	width:47%;
+	margin:1%;
+	height:48%;
+	display:inline-block;
+}
+
+.columna-2
+{
+	width:47%;
+	margin:1%;
+	height:48%;
+	display:inline-block;
+}
+.titulo
+{
+	float:left;
+}

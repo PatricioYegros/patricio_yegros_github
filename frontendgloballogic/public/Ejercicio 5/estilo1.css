@@ -1,0 +1,108 @@
+a
+{
+	text-decoration: none;
+	font: bold black 'Comic Sans';
+
+}
+
+
+a:visited
+{
+	color:black;
+}
+
+.header
+{
+	width: 80%;
+	height: 5%;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+.header2 img
+{
+	width: 7%;
+	height: 7%;
+	display: inline-block;
+	float: left;
+}
+
+.header3
+{ 
+	width: 80%;
+	height:5%;
+	display:inline-block;
+}
+
+.header3 a:first-child
+{
+	width: 20%;
+	height:100%;
+	display: inline-block;
+	border:none;
+	margin-right: none;
+	color: cyan;
+}
+
+.header3 a
+{
+	width: 20%;
+	height:100%;
+	display: inline-block;
+	border:none;
+	margin-left: none;
+	color: grey;
+}
+.header hr { 
+  background-color: black;
+  height: 10px;
+  width:100%;
+
+}
+
+.columna_izquierda
+{
+	font-family:Arial, Helvetica, sans-serif;
+	width: 54%;
+	margin-left:10%;
+	margin-right:1%;
+	float: left;
+}
+
+.columna_derecha
+{
+	width:14%;
+	margin-right:10%;
+	margin-left: 1%;
+	float: left;
+}
+
+.columna_derecha img
+{
+	width:100%;
+}
+
+@media(min-width:319px) and (max-width:767px)
+{
+	body
+	{
+		font-family: "Comic Sans MS";
+		background-color: green;
+	}
+}
+@media(min-width:768px)
+{
+	body
+	{
+		font-family: "Times New Roman";
+		background-color: yellow;
+	}
+}
+@media(min-width: 1024px)
+{
+	body
+	{
+		font-family: Arial, Helvetica, sans-serif;
+		background-color: orange;
+	}
+}

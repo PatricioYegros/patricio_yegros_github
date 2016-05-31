@@ -1,0 +1,42 @@
+.fila
+{
+	width: 100%;
+	height: 70px;
+	background-image: url('img/Fondo.jpg');
+	opacity:0.7;
+}
+
+a
+{
+	font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+	display: inline-block;
+	text-decoration-style: none;
+	color: white;
+	float: right;
+	padding: 10px;
+	text-decoration: none;
+	margin-top: 15px;
+}
+
+.opciones
+{
+	width:70%;
+	height: 50%;
+	display: inline-block;
+	opacity: 1;
+}
+
+a:hover
+{
+	color: orange;
+}
+
+.logo a
+{
+	float: left;
+	width: 200px;
+	height: 50%;
+	display: inline-block;
+	margin:20px;
+	color: orange;
+}

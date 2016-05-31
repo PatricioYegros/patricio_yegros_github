@@ -1,0 +1,63 @@
+body 
+{
+	background-color: #4a4a4a ;
+}
+
+.header 
+{
+	background-image: url('img/landscape.jpg');
+	background-position: 0px;
+	width: 95%;
+	margin: 2%;
+	height: 150px;
+	text-align: center;
+}
+
+h1{
+	font-family: 'Arial';
+	font-size: 300%;
+	color: white;
+	line-height: 150px;
+}
+
+.parrafo
+{	
+	display: inline-block;
+	width: 60%;
+	margin : 2%;
+	border: 1px solid white;
+	border-radius: 25px;
+	border-height: 40;
+	
+}
+
+p {
+	font:bold 30px 'Arial';
+	color: white;
+	padding: 17px;
+}
+
+.foto
+{	
+	display: inline-block;
+	width: 30%;
+	margin: 2%;
+}
+
+.footer
+{
+	width: 95%;
+	margin: 0 auto;
+	height: 50px;
+	background-color: white;
+	font:30px 'Arial';
+	color: black;
+	text-align: center;
+	line-height: 50px;
+}
+
+a
+{
+	color: orange;
+	text-decoration: none;
+}

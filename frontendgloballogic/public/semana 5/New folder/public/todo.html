@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To Do's List</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<h1> To Do's List! </h1>
+	<input type="text" name="" placeholder="What needs to be done?" class="lista">
+	<div class = "container">
+		<div class = "row objetos">
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-2.2.3.js"></script>
+	<script type="text/javascript">
+		$('form').on('submit', agregarTarea);
+			function agregarTarea()
+			{
+		    	   var newTarea = agretarTareaHtml(),
+		           newMain = $('#main').append(newTarea);
+		           limpiarInput ();
+		           return false;
+			}
+
+			function agretarTareaHtml()
+			{
+		    	var tarea = $('#tarea').val(),
+		        tareaHtml = 
+		        ('<div class="row">' + tarea + '<input type="button" class="tarea .glyphicon .glyphicon-remove' + '" value="X"></div>');
+		    	return tareaHtml;
+			}
+
+			/*function limpiarInput(){}*/
+
+		$('body').on('click','.tarea',function(e)
+		{
+		    e.preventDefault();
+		    var tarea = $(this).parent();
+		    tarea.remove();
+		});
+	</script>
+</body>
+</html>

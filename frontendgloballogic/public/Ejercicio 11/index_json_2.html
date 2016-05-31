@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+<p id="nom"></p>
+<p id="about"></p>
+<p id="exp"></p>
+<p id="con"></p>
+<script type="text/javascript" src="js/jquery-2.2.3.js"></script>
+
+<script>
+
+	var cvTest = {
+	'nom' : 'Pedro López',
+	'about' : 'soy un groso',
+	'exp' : [{
+		'lugar': 'GL',
+		'pos' : 'DEV',
+		'time': '2013-'}
+	],
+	'con' : ['tec1','tec2']
+};
+
+		var jqObj = $ ('<div></div>'); //div, li u otro
+
+		$.each(cvTest, function(key,value) {
+			if (typeof value== 'string') {
+				$('#'+key).html(value);
+			}else{
+				var ul = $('<ul></ul>');
+				$.each(value, function(k,v){
+					var li = $('<li></li>');
+					li.html(v);
+					ul.append(li);
+				});
+				$('#'+key).append(ul);
+			}
+		});
+
+</script>
+</body>
+</html>

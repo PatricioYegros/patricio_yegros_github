@@ -1,0 +1,6 @@
+Muy bien todo!!
+
+Observaciones
+
+- Archivos y directorios en minúscula (ej. Img --> img)
+- Nomenclatura de clases --> .primer-fila en vez de .PrimerFila

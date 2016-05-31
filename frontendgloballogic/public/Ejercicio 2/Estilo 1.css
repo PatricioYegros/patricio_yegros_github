@@ -1,0 +1,33 @@
+ul.menu{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	font-family: 'Comic Sans';
+	background-color: #0099ff;
+	color: white;
+	border: 5px solid #0099ff;
+	text-align: left;
+}
+
+ul.menu li
+{
+	float: left;
+}
+
+ul.menu li a:hover
+	{	
+		background-color: green;
+	}
+ul.menu li a
+{	
+	font-family: 'Comic Sans';
+	background-color: #0099ff;
+	color: white;
+	border: 5px solid #0099ff;
+	margin: 0 auto;
+	cursor: help;
+	
+	text-align: center;
+	padding: 14px 16px;
+}

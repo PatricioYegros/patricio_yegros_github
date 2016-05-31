@@ -1,0 +1,45 @@
+body
+{
+	background-color: gray;
+}
+
+p
+{
+	font-family: "Arial";
+
+}
+
+.recuadro p
+{
+	border:1px solid white;
+	width:20%;
+}
+
+.recuadro2
+{
+	border:1px solid white;
+	margin:5%;
+	padding:2%;
+}
+
+.recuadro3
+{
+	border: 1px solid gray;
+}
+
+img
+{
+	height:15%;
+	width:15%;
+}
+
+.container
+{
+	margin:5%;
+}
+
+.container p
+{
+	margin-top:2%;
+	margin-bottom:6%;
+}

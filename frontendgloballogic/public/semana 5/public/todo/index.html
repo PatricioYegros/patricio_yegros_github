@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>todo ejemplo</title>
+    <style>
+        .remove{
+            display: none;
+            color: #ff0000;
+            border: none;
+            background-color:white;
+            
+        }
+        
+        ul{
+            list-style: none;
+        }
+        
+        ul li:hover .remove{
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <input type="text" placeholder="Tarea">
+        <input type="date" placeholder="Fecha limite">
+        <ul>
+        </ul>  
+        <button type="button" class="showTasks">mostrar tareas</button>      
+    </form>
+    <script type="text/javascript" src="js/jquery-2.2.3.js"></script>
+    <script type="text/javascript" src="js/todo.js"></script>
+</body>
+</html>
