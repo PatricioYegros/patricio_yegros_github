@@ -1,0 +1,18 @@
+
+.container
+{
+	border:25%;
+	outline-offset: 3;
+	width: 10%;	
+}
+
+.row input
+{
+	margin:2px;
+	width:30px;
+}
+
+.campo input
+{
+	width:90%;
+}
