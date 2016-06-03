@@ -5,39 +5,87 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	<link rel="stylesheet" href="Estilo1.css">
+	<!-- <link rel="stylesheet" href="Estilo1.css"> -->
+	<style>
+	  <style>
+        .calculadora div{
+            padding: 0;
+        }
+        .input{
+            text-align: right;
+        }
+        
+        .btn{
+            width:100%; 
+        }
+    </style> 
 </head>
 <body>
 	<div class ="container">
 		<div class="row">
-			<div class="campo">
-			<input type="text" clas="form-control" name="" placeholder="Número">
+		<div class="col-xs-offset-4 col-xs-4 calculadora">
+			<div class="row">
+				<input type="text" clas="input form-control" name="" >
+			</div>
+			<div class="row">
+				<div class="col-xs-3">
+				<button type="button" class="btn btn-primary butonNumero">7</button>
+				</div>
+				<div class="col-xs-3">
+				<button type="button" class="btn btn-primary butonNumero">8</button>
+				</div>
+				<div class="col-xs-3">
+				<button type="button" class="btn btn-primary butonNumero">9</button>
+				</div>
+				<div class="col-xs-3">
+				<button type="button" class="btn btn-primary operacion" data-operacion="multiplicar">*</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3">
+				<button type="button" class="btn btn-primary butonNumero">4</button>
+				</div>
+				<div class="col-xs-3">
+				<button type="button" class="btn btn-primary butonNumero">5</button>
+				</div>
+				<div class="col-xs-3">
+				<button type="button" class="btn btn-primary butonNumero">6</button>
+				</div>
+				<div class="col-xs-3">
+				<button type="button" class="btn btn-primary operacion" data-operacion="dividir">/</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3">
+				<button type="button" class="btn btn-primary butonNumero">1</button>
+				</div>
+				<div class="col-xs-3">
+				<button type="button" class="btn btn-primary butonNumero">2</button>
+				</div>
+				<div class="col-xs-3">
+				<button type="button" class="btn btn-primary butonNumero">3</button>
+				</div>
+				<div class="col-xs-3">
+				<button type="button" class="btn btn-primary operacion" data-operacion="sumar">+</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-3">
+				<button type="button" class="btn btn-primary butonNumero">0</button>
+				</div>
+				<div class="col-xs-3">
+				<button type="button" class="btn btn-primary operacion" data-operacion="igual">=</button>
+				</div>
+				<div class="col-xs-3">
+				<button type="button" class="btn btn-primary operacion" data-operacion="clear">AC</button>
+				</div>
+				<div class="col-xs-3">
+				<button type="button" class="btn btn-primary operacion" data-operacion="restar">-</button>
+				</div>
 			</div>
 		</div>
-		<div class="row">
-			<button type="button" class="btn btn-default">7</button>
-			<button type="button" class="btn btn-default">8</button>
-			<button type="button" class="btn btn-default">9</button>
-			<button type="button" class="btn btn-default">*</button>
-		</div>
-		<div class="row">
-			<button type="button" class="btn btn-default">4</button>
-			<button type="button" class="btn btn-default">5</button>
-			<button type="button" class="btn btn-default">6</button>
-			<button type="button" class="btn btn-default">/</button>
-		</div>
-		<div class="row">
-			<button type="button" class="btn btn-default">1</button>
-			<button type="button" class="btn btn-default">2</button>
-			<button type="button" class="btn btn-default">3</button>
-			<button type="button" class="btn btn-default">+</button>
-		</div>
-		<div class="row">
-			<button type="button" class="btn btn-default">0</button>
-			<button type="button" class="btn btn-default">=</button>
-			<button type="button" class="btn btn-default">AC</button>
-			<button type="button" class="btn btn-default">-</button>
-		</div>
 	</div>
+	<script type="text/javascript" src="js/jquery-2.2.3.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>
