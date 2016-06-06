@@ -5,7 +5,6 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	<!-- <link rel="stylesheet" href="Estilo1.css"> -->
 	<style>
 	  <style>
         .calculadora div{
@@ -18,10 +17,21 @@
         .btn{
             width:100%; 
         }
+        @font-face
+        {
+        	font-family:Pokemon;
+        	src: url(fonts/PokemonHollow.ttf);
+        }
+        h1
+        {
+        	font-family: Pokemon;
+        	text-align:center;
+        }
     </style> 
 </head>
 <body>
 	<div class ="container">
+	<h1>La calculadora piola</h1>
 		<div class="row">
 		<div class="col-xs-offset-4 col-xs-4 calculadora">
 			<div class="row">
@@ -74,10 +84,10 @@
 				<button type="button" class="btn btn-primary butonNumero">0</button>
 				</div>
 				<div class="col-xs-3">
-				<button type="button" class="btn btn-primary operacion" data-operacion="igual">=</button>
+				<button type="button" class="btn btn-warning operacion" data-operacion="igual">=</button>
 				</div>
 				<div class="col-xs-3">
-				<button type="button" class="btn btn-primary operacion" data-operacion="clear">AC</button>
+				<button type="button" class="btn btn-danger operacion" data-operacion="clear">AC</button>
 				</div>
 				<div class="col-xs-3">
 				<button type="button" class="btn btn-primary operacion" data-operacion="restar">-</button>
