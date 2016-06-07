@@ -4,29 +4,85 @@
 	<title>Ejercicio 19</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<style>
+	.container
+	{
+		background-color: #238575;
+		color:black;
+		align-self: center;
+	}
+	@font-face
+    {
+      	font-family:Gamer;
+      	src: url(fonts/PressStart2P.ttf);
+  	}
+    body
+    {	
+    	text-align: center;
+  	 	font-family: Gamer;
+  	 	text-align:center;
+    }
+    h1
+    {
+    	text-decoration:underline;
+    }
+    .lista
+    {
+    	background-color: #761996;
+    	color:black;
+    	align-self: center;
+    }
+	</style>
 </head>
 <body>
 <form>
-<div class="form-group">
-	<input type="nombre" class="form-control" placeholder="Ingrese su nombre">
-	<input type="apellido" class="form-control" placeholder="Ingrese su apellido">
+<div class = "container">
+	<h1>REGISTRO:</h1>
+	<div class="form-group">
+		<p>Ingrese su nombre:</p>
+		<input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+		<p>Ingrese su apellido:</p>
+		<input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+		<p>Ingrese su contraseña:</p>
+		<input type="password" class="form-control" id="contraseña" placeholder="Ingrese su contraseña">
+	<!-- 	<p>Ingrese nuevamente su contraseña:</p>
+		<input type="password" class="form-control contraseña2" placeholder="Ingrese su apellido"> -->
+		<p>Ingrese su mail:</p>
+		<input type="text" class="form-control" id="mail" placeholder="Ingrese su mail">
+	</div>
+	<div class="radio">
+		<p>Sexo:</p>
+		<input type="text" class="form-control" id="sexo" placeholder="¿Hombre o Mujer?">
+	</div>
+	<div class="Nacimiento">
+		<p>Ingrese su fecha de nacimiento:</p>
+		<input type="date" id="date" placeholder="Fecha de nacimiento">
+	</div>
+	<div class="Domicilio">
+		<p>Ingrese su domicilio:</p>
+		<input type="text" class="form-control"  id="domicilio" placeholder="Ingrese su domicilio">
+	</div>
+	<div class="Foto">
+		<p>Ingrese la URL de su foto de perfil:</p>
+		<input type="text" class="form-control" id="foto" placeholder="Ingrese la URL de la foto">
+	</div>
+	<div class="Educacion">
+		<p>Ingrese la educación:</p>
+		<input type="text" class="form-control" id="educacion" placeholder="Ingrese su educación">
+	</div>
+	<div class="Experiencia">
+		<p>Ingrese su experiencia:</p>
+		<input type="text" class="form-control" id="experiencia" placeholder="Ingrese su experiencia">
+	<div class="Posteo">
+		<br>
+		<input type="submit" name="" value="Enviar Datos" class="enviar">
+	</div>
 </div>
-<div class="radio">
-	<label>
-	<input type="radio" name="inlineRadioOptions" value="option1">Hombre
-	</label>
-	<label>
-	<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">Mujer
-	</label>
+<div class = "lista">
+<div class="row">
 </div>
-<div class="Nacimiento">
-	<input type="date" placeholder="Fecha de nacimiento">
 </div>
-<div class="Domicilio">
-	<input type="text" placeholder="Ingrese su domicilio">
-</div>
-<div class="Foto">
-	<input type="text" placeholder="Ingrese la URL de la foto">
-</div>
+<script type="text/javascript" src="js/jquery-2.2.3.js"></script>
+<script type="text/javascript" src="js/registro.js" ></script>
 </body>
 </html>
