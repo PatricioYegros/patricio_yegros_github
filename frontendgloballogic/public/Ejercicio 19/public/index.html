@@ -27,10 +27,15 @@
     	text-decoration:underline;
     }
     .lista
-    {
-    	background-color: #761996;
+    {	
+    	background-color: #238575;
     	color:black;
     	align-self: center;
+    }
+    table, td
+    {
+    	border: 1px black solid;
+    	padding: 2px;
     }
 	</style>
 </head>
@@ -73,14 +78,19 @@
 	<div class="Experiencia">
 		<p>Ingrese su experiencia:</p>
 		<input type="text" class="form-control" id="experiencia" placeholder="Ingrese su experiencia">
+	</div>
 	<div class="Posteo">
 		<br>
 		<input type="submit" name="" value="Enviar Datos" class="enviar">
 	</div>
-</div>
-<div class = "lista">
-<div class="row">
-</div>
+	<div class="MostrarLista">
+		<br>
+		<input type="submit" name="" value="Mostrar Lista" class="mostrarLista">
+	</div>
+	<div class = "lista">
+	<table>
+	</table>
+	</div>
 </div>
 <script type="text/javascript" src="js/jquery-2.2.3.js"></script>
 <script type="text/javascript" src="js/registro.js" ></script>
